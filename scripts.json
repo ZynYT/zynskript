@@ -1,0 +1,26 @@
+[
+  {
+    "id": "coin-system",
+    "name": "Coin System",
+    "category": "Economy",
+    "version": "1.0",
+    "description": "A starter listing for a server coin system. Replace this demo entry with your own Skript.",
+    "code": "# ZynSkripts demo\n# Add your own Skript code here\ncommand /coins:\n    trigger:\n        send \"Your coin balance system goes here!\" to player",
+    "tags": [
+      "economy",
+      "starter"
+    ]
+  },
+  {
+    "id": "welcome-message",
+    "name": "Welcome Message",
+    "category": "Utility",
+    "version": "1.0",
+    "description": "A simple join message example for a Minecraft server.",
+    "code": "on join:\n    send \"&aWelcome to the server!\" to player",
+    "tags": [
+      "join",
+      "message"
+    ]
+  }
+]
